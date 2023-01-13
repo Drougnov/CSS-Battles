@@ -53,5 +53,7 @@ width:200px;height:200px;background:#b5e0ba;}</style>
 **match**: 100% | **characters**: 134 | **score**: 711.53
 
 ```css
-<style>body{background:#5d3a3a;margin:0;}body:after{position:absolute;content:'';width:200px;height:200px;background:#b5e0ba;}</style>
+<style>body{background:#5d3a3a;margin:0;}body:after{position:
+absolute;content:'';width:200px;height:200px;background:#b5e0
+ba;}</style>
 ```
