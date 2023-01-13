@@ -103,3 +103,18 @@ height:150px;background:#243D83;z-index:5;}div:after{width:
   }
 </style>
 ```
+
+### minimized - Solution #2
+
+**match**: 100% | **characters**: 448 | **score**: 605.59
+
+```css
+<div class="r"></div><div class="c"><div></div></div>
+<style>body{background:#6592CF;display:grid;justify-items:
+center;align-items:center;}.r{width:300px;height:150px;
+background:#243D83;}.c{position:absolute;width:250px;height:2
+50px;border-radius:50%;background:#6592CF;display:grid;
+justify-items:center;align-items:center;}.c>div{position:
+absolute;width:50px;height:50px;border:50px solid #243D83;
+border-radius:50%;background:#EEB850;}</style>
+```
