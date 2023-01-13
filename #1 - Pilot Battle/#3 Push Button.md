@@ -61,3 +61,45 @@ height:150px;}body:after,div,div:after{width:250px;height:
 height:150px;background:#243D83;z-index:5;}div:after{width:
 50px;height:50px;background:#EEB850;}</style>
 ```
+
+## Solution #2
+
+**match**: 100% | **characters**: 624 | **score**: 601.05
+
+```css
+<div class="rectangle"></div>
+<div class="circle">
+  <div></div>
+</div>
+<style>
+  body{
+    background: #6592CF;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+  }
+  .rectangle{
+    width:300px;
+    height:150px; 
+    background:#243D83;
+  }
+  .circle{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background: #6592CF;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+  }
+  .circle>div{
+    position: absolute;
+    width:50px;
+    height:50px;
+    border:50px solid #243D83;
+    border-radius:50%;
+    background:#EEB850;
+  }
+</style>
+```
